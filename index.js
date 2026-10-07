@@ -12,10 +12,10 @@ app.use(
 )
 
 const pool = new Pool({
-    user: 'postgre',
+    user: 'postgres',
     host: 'localhost',
     database: 'mahasiswa',
-    password: '123',
+    password: '1234',
     port: '5432'
 })
 
